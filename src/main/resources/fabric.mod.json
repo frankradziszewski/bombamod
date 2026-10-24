@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "bombamod",
+  "version": "${version}",
+  "name": "Bomba Mod",
+  "description": "Mod z systemem bomb i trackerem graczy dla Fabric 1.21.11",
+  "authors": ["Franek"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.bombamod.BombaModServer"
+    ],
+    "client": [
+      "com.bombamod.BombaModClient"
+    ]
+  },
+  "mixins": [],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
